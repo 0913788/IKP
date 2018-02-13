@@ -1,0 +1,29 @@
+1. Wat is een mathematische operator?
+   De mathematische operators zijn  misschien wel de meest bekende operators die er zijn. Denk aan het plusteken voor
+   optellen en het minteken voor aftrekken. Deze operators zijn voor vrijwel iedereen bekend en worden dagelijks toegepast.
+
+   De uitleg van deze operators, met een uitzondering hier en daar, zal worden overgeslagen.
+
+2. De operators
+   mathematische operatoren verwachten zowel een linker als een rechter input.
+
+   + - Optellen.
+
+   - - Aftrekken.
+
+   * - Vermenigvuldigen.
+
+   / - Delen (float); bekend van de wiskunde.
+           Let op: het antwoord wat terug wordt gegeven is een float en wordt niet afgerond.
+
+   % - Modulo; bij het toepassen van de modulo operator is het gegeven antwoord het overblijfsel van de
+       linker input nadat het niet meer mogelijk is om de rechter input in zijn geheel van de linker input af te
+       trekken.
+
+   ** - Machtsverheffen; bekend van de wiskunde.
+
+   // - Delen (int); bekend van de wiskunde.
+           Let op: het antwoord wat terug wordt gegeven is een int, hierbij wordt het getal achter de komma
+           genegeerd. Als je een float als antwoord wilt zal minimaal één van de inputs een float moeten zijn.
+
+

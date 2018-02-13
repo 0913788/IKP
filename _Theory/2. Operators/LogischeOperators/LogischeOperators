@@ -1,0 +1,56 @@
+1. Wat is een logische operator?
+   Een logische operator is een operator die een vergelijking uitvoert tussen twee operands en een boolean type als
+   waarde teruggeeft. Dit betekend dus dat de uitkomst na het uitvoeren van een logische operator altijd True of False
+   is. Wanneer het door ons geschreven programma dus een boolean waarde verwacht hoeven wij hier niet True of False in
+   te vullen. We kunnen hier ook gebruik maken van een logische expressie.
+
+   Voorbeeld:
+       Logische operators
+           """
+               x = True
+               y = False
+
+               z = 2 > 3
+               xy = 3 > 2
+               yz = 1 < 3
+
+               xyz = True or False
+               yzx = (5!=10) and (2+2 == 4)
+               zxy = not yzx
+           """
+
+2. De operatoren
+   2.1. Vergelijkingen
+       Vergelijkingen vereisen een input aan zowel de linker als de rechter kant van een operator.
+
+       == - Vergelijking; doordat het '=' symbool al in gebruik is voor het toekennen van variabelen gebruiken we het
+            dubbele is gelijk aan teken om een vergelijking uit te voeren. Wanneer de elementen aan beide kanten
+            van de vergelijkingsoperator identiek zijn aan elkaar zal True worden teruggegeven en anders False.
+
+       >  - Groter; Wanneer het linker element van de groter operator groter is dan het rechter element wordt er
+            True teruggegeven en anders False.
+
+       >= - Gelijk of groter; Wanneer het linker element van de gelijk of groter operator gelijk of groter is in
+            vergelijking met het rechter element wordt True teruggegeven en anders False.
+
+       <  - Kleiner; wanneer het linker element van de kleiner operator kleiner is dan het rechter element wordt er True
+            terug gegegeven en anders False.
+
+       <= - Gelijk of kleiner; wanneer het linker element van de gelijk of kleiner operator gelijk of kleiner is in
+            vergelijking met het rechter element wordt True teruggegeven en anders False.
+
+       != - Niet gelijk; wanneer beide elementen niet van de niet gelijk operator niet identiek zijn in vergelijking
+            met elkaar wordt True teruggegeven en anders False.
+
+       and - And; de and operator vereist twee booleans als input, wanneer beide booleans True zijn wordt True
+             terug gegeven anders False.
+
+       or - Or; de or operator vereist twee booleans als input, wanneer minimaal één van de twee booleans True is wordt
+            True teruggegeven anders False.
+
+   2.2. Vervormen
+       Vervormingen vereisen één input aan de rechter kant van een operator.
+
+       not - Not; De not operator geeft de tegenovergestelde waarde terug van de input boolean.
+
+   *In 3. BinaireLogica zullen de and, or en not operators verder behandeld worden.
