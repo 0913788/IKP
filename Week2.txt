@@ -1,0 +1,45 @@
+a = 10 + 2
+b = 3 - 2
+c = 5 * 0
+d = 5 ** 2
+e = 1 / 2
+f = 3 // 2
+g = 5 % 2
+
+print("uitkomst van: 10 + 2 = " + str(a))
+print("uitkomst van: 3 - 2 = " + str(b))
+print("uitkomst van: 5 * 2 = " + str(c))
+print("uitkomst van: 5 ** 2 = " + str(d))
+print("uitkomst van: 1 + 2 = " + str(e))
+print("uitkomst van: 3 // 2 = " + str(f))
+print("uitkomst van: 5 % 2 = " + str(g))
+
+a = 3 < 5
+b = 4 > 2
+c = 4 <= 4
+d = 5 >= 10
+e = 5 == 5
+f = 5 != 1
+
+print("Is 3 < 5? Antwoord: " + str(a))
+print("Is 4 < 2? Antwoord: " + str(b))
+print("Is 4 <= 4? Antwoord: " + str(c))
+print("Is 5 >= 10? Antwoord: " + str(d))
+print("Is 5 == 5? Antwoord: " + str(e))
+print("Is 5 != 1? Antwoord: " + str(f))
+
+a = True and False
+b = True and True
+c = True or False
+d = False or False
+e = True or True
+f = not(True)
+g = not(False)
+
+print("True and False? Antwoord: " + str(a))
+print("True and True? Antwoord: " + str(b))
+print("True or False? Antwoord: " + str(c))
+print("False or False? Antwoord: " + str(d))
+print("True or True? Antwoord: " + str(e))
+print("not(True)? Antwoord: " + str(f))
+print("not(False)? Antwoord: " + str(g))
